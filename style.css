@@ -18,13 +18,22 @@ body {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-  width: 320px;
+  width: 340px;
+}
+
+.memory-indicator {
+  height: 18px;
+  color: #ff9500;
+  font-size: 13px;
+  text-align: right;
+  padding: 0 5px;
+  margin-bottom: 3px;
 }
 
 #display {
   width: 100%;
   height: 60px;
-  font-size: 28px;
+  font-size: 26px;
   text-align: right;
   padding: 0 15px;
   border: none;
@@ -41,8 +50,8 @@ body {
 }
 
 .btn {
-  padding: 18px;
-  font-size: 18px;
+  padding: 16px;
+  font-size: 17px;
   border: none;
   border-radius: 10px;
   background: #3a3a52;
@@ -65,7 +74,7 @@ body {
 
 .equals {
   background: #4caf50;
-  grid-column: span 2;
+  grid-column: span 4;
 }
 
 .equals:hover {
@@ -80,6 +89,11 @@ body {
   background: #cc4a4a;
 }
 
-.zero {
-  grid-column: span 1;
+.memory {
+  background: #555577;
+  font-size: 14px;
+}
+
+.memory:hover {
+  background: #6a6a94;
 }

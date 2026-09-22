@@ -45,7 +45,7 @@ document.addEventListener('keydown', (e) => {
   } else if (e.key === 'Enter') {
     document.querySelector('.equals').click();
   } else if (e.key === 'Backspace') {
-    currentInput = currentInput.slice(0, -1;
+    currentInput = currentInput.slice(0, -1);
     display.value = currentInput;
   } else if (e.key === 'Escape') {
     document.querySelector('.clear').click();
